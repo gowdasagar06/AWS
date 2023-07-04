@@ -1,1 +1,51 @@
-EC2
+EC2-Amazon Elastic Compute Cloud (Amazon EC2) provides on-demand, scalable computing capacity in the
+Amazon Web Services (AWS) Cloud. Using Amazon EC2 reduces hardware costs so you can develop and
+deploy applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you
+need, configure security and networking, and manage storage. You can add capacity (scale up) to handle
+compute-heavy tasks, such as monthly or yearly processes, or spikes in website traffic. When usage
+decreases, you can reduce capacity (scale down) again.
+Amazon Elastic Compute Cloud (EC2) is a web service provided by Amazon Web Services (AWS) that offers resizable compute capacity in the cloud.
+It enables users to rent virtual servers, called instances, on which they can run their applications.
+
+Here are some key points about EC2:
+
+1. Instances: EC2 allows you to create and manage virtual instances in the cloud. Instances are virtual servers that can be configured with various specifications 
+such as CPU, memory, storage, and networking capacity.
+
+2. Flexibility: EC2 provides flexibility in terms of instance types, operating systems, and software configurations. You can choose from a wide range of instance types
+optimized for different workloads, such as general-purpose, compute-optimized, memory-optimized, and GPU instances.
+
+3. Scalability: EC2 enables you to scale your compute capacity up or down based on your needs. You can easily launch new instances or terminate existing ones as your 
+application's demand fluctuates.
+
+4. Pricing: EC2 offers various pricing options, including on-demand instances, reserved instances (with discounted pricing for longer-term commitments), and 
+spot instances (for bidding on unused EC2 capacity). Additionally, you can choose different pricing models such as per-hour or per-second billing.
+
+5. Security: EC2 provides several security features to protect your instances and data. You can configure security groups to control inbound and outbound traffic,
+utilize key pairs for secure instance access, and leverage AWS Identity and Access Management (IAM) for fine-grained access control.
+
+6. Integration with other AWS services: EC2 seamlessly integrates with other AWS services, such as Amazon Elastic Block Store (EBS) for persistent storage, 
+Amazon Simple Storage Service (S3) for object storage, Amazon Relational Database Service (RDS) for managed databases, and many more.
+
+7. Availability and reliability: EC2 offers high availability and reliability by allowing you to launch instances in multiple availability zones (AZs) within a region. 
+AZs are isolated locations with their own power, cooling, and networking infrastructure.
+
+8. Auto Scaling: EC2 integrates with AWS Auto Scaling, which enables automatic scaling of instances based on predefined conditions, such as CPU utilization or network traffic. This helps ensure that your application can handle varying workloads efficiently.
+
+9. Elastic IP addresses: EC2 provides Elastic IP addresses, which are static IPv4 addresses that you can assign to your instances. These addresses can be 
+associated with your account and remapped to different instances, providing a consistent IP endpoint for your application.
+
+Overall, EC2 is a highly flexible and scalable service that allows you to provision virtual servers in the cloud, providing compute capacity on-demand and
+enabling you to build and scale applications easily.
+
+Use Cases
+Run Cloud-Native and Enterprise Applications
+Deliver secure, reliable, high-performance, and cost-effective compute infrastructure to meet demanding business needs.
+Scale for HPC Applications
+Access the on-demand infrastructure and capacity you need to run HPC applications faster and cost-effectively.
+
+Develop for Apple Platforms
+Build, test, and sign on-demand macOS workloads. Access environments in minutes, dynamically scale capacity as needed, and benefit from AWS’s pay-as-you-go pricing.
+
+Train and Deploy ML Applications
+Deliver the broadest choice of compute, networking (up to 400 Gbps), and storage services purpose-built to optimize price performance for ML projects.
